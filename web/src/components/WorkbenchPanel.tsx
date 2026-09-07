@@ -91,6 +91,7 @@ export function WorkbenchPanel({
                   <th className="num">{t("median", lang)}</th>
                   <th className="num">p25</th>
                   <th className="num">p75</th>
+                  {dim.summable && <th className="num">{t("total", lang)}</th>}
                 </tr>
               </thead>
               <tbody>
@@ -101,6 +102,11 @@ export function WorkbenchPanel({
                     <td className="num">{dim.format(g.median, lang)}</td>
                     <td className="num">{dim.format(g.q1, lang)}</td>
                     <td className="num">{dim.format(g.q3, lang)}</td>
+                    {dim.summable && (
+                      <td className="num">
+                        {(dim.formatTotal ?? dim.format)(g.total, lang)}
+                      </td>
+                    )}
                   </tr>
                 ))}
               </tbody>

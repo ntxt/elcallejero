@@ -174,6 +174,15 @@ export interface Dimension {
   value: (s: Street) => number | null;
   /** Long-tailed quantities read better on a log scale. */
   log?: boolean;
+  /**
+   * Whether adding the group up means anything. Length does: 140 km of street
+   * named after women against 570 km named after men is the question the
+   * platform is actually asking. Widths and years do not -- a total width is
+   * not a quantity.
+   */
+  summable?: boolean;
+  /** How to render a summed value, when it differs from a single one. */
+  formatTotal?: (v: number, lang: Lang) => string;
   format: (v: number, lang: Lang) => string;
   note?: Record<Lang, string>;
 }
@@ -192,7 +201,11 @@ export const DIMENSIONS: Dimension[] = [
     unit: { es: "metros", en: "metres" },
     value: (s) => (s.mapped ? s.length : null),
     log: true,
+    summable: true,
     format: (v) => m(v),
+    formatTotal: (v, lang) =>
+      `${(v / 1000).toLocaleString(lang === "es" ? "es-ES" : "en-GB",
+        { maximumFractionDigits: 0 })} km`,
   },
   {
     id: "width",
@@ -221,6 +234,7 @@ export const DIMENSIONS: Dimension[] = [
     label: { es: "Conexiones", en: "Connections" },
     unit: { es: "vías que la cruzan", en: "ways meeting it" },
     value: (s) => (s.mapped ? s.connections : null),
+    summable: true,
     format: (v) => String(Math.round(v)),
   },
   {
@@ -250,6 +264,7 @@ export interface GroupStat {
   n: number;
   values: number[];
   min: number; q1: number; median: number; q3: number; max: number; mean: number;
+  total: number;
 }
 
 export function quantile(sorted: number[], q: number): number {
@@ -281,6 +296,7 @@ export function summarise(
     const meta = axis.meta(key, data.taxonomy, lang);
     return {
       key, label: meta.label, colour: meta.colour, n: values.length, values,
+      total: values.reduce((a, b) => a + b, 0),
       min: values[0],
       q1: quantile(values, 0.25),
       median: quantile(values, 0.5),

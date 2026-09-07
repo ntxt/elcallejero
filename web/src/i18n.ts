@@ -38,6 +38,8 @@ const S = {
   dimension: { es: "Dimensión", en: "Dimension" },
   splitBy: { es: "Comparar por", en: "Compare by" },
   median: { es: "mediana", en: "median" },
+  total: { es: "total", en: "total" },
+  howMuchStreet: { es: "Cuánta calle en total", en: "How much street in total" },
   count: { es: "vías", en: "ways" },
   range: { es: "rango intercuartílico", en: "interquartile range" },
   noData: { es: "Sin datos suficientes", en: "Not enough data" },

@@ -143,6 +143,32 @@ export function StoryPanel({
               {t("median", lang)}: {genderRanges.map((g) =>
                 `${g.label} ${dim.format(g.median, lang)}`).join(" · ")}
             </p>
+            {dim.summable && genderRanges.length >= 2 && (() => {
+              // The medians are close, so the gap is one of number rather than
+              // of size -- which the totals show and the medians hide.
+              const fmt = dim.formatTotal ?? dim.format;
+              const sum = genderRanges.reduce((a, g) => a + g.total, 0);
+              const women = genderRanges.find((g) => g.key === "f");
+              return (
+                <p className="note">
+                  <b>{t("howMuchStreet", lang)}.</b>{" "}
+                  {genderRanges.map((g) =>
+                    `${g.label} ${fmt(g.total, lang)}`).join(" · ")}
+                  {women && (
+                    <>
+                      {" — "}
+                      {lang === "es"
+                        ? <>las mujeres son el <b>{pct((women.total / sum) * 100, lang)}</b> de esa
+                          longitud y el <b>{pct((women.n / genderRanges.reduce((a, g) => a + g.n, 0)) * 100, lang)}</b> de
+                          las vías: la diferencia está en cuántas, no en cuán grandes.</>
+                        : <>women account for <b>{pct((women.total / sum) * 100, lang)}</b> of that
+                          length and <b>{pct((women.n / genderRanges.reduce((a, g) => a + g.n, 0)) * 100, lang)}</b> of
+                          the ways: the gap is in how many, not how big.</>}
+                    </>
+                  )}
+                </p>
+              );
+            })()}
           </>
         ) : <p className="empty">{t("noData", lang)}</p>}
         {dim.note && <p className="note">{dim.note[lang]}</p>}
