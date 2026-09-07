@@ -134,7 +134,7 @@ CATEGORIES: dict[str, dict] = {
             "sea_life":  {"es": "Fauna marina", "en": "Sea life"},
             "mineral":   {"es": "Minerales y piedras", "en": "Minerals & stones"},
             "celestial": {"es": "Astros", "en": "Celestial bodies"},
-            "weather":   {"es": "Vientos y clima", "en": "Winds & weather"},
+            "weather":   {"es": "Vientos, mareas y clima", "en": "Winds, tides & weather"},
         },
     },
     "culture": {

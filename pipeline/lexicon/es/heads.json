@@ -388,5 +388,17 @@
   "PARQUE": {
     "cat": "place",
     "sub": "local"
+  },
+  "RONDA": {
+    "cat": "landscape",
+    "sub": "descriptive"
+  },
+  "MAREA": {
+    "cat": "nature",
+    "sub": "weather"
+  },
+  "MAREAS": {
+    "cat": "nature",
+    "sub": "weather"
   }
 }

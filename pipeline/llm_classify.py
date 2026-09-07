@@ -106,6 +106,7 @@ def pending(city: str) -> list[str]:
     from .classify import Classifier, normalise
     from .registry import get_city
 
+
     adapter = get_city(city)
     clf = Classifier(adapter.spec.language)
     have = load_labels()
@@ -121,9 +122,11 @@ def pending(city: str) -> list[str]:
     return out
 
 
-# Rules whose verdicts the model is allowed to improve on. Everything else is
-# already settled by evidence the model cannot beat.
-RESOLVE_RULES = {"none", "surname_only", "given_only"}
+# Rules whose verdicts the model is allowed to improve on. Defined once, in the
+# classifier, so this pass and the classifier's own override logic can never
+# drift apart -- they were separate lists, and adding a rule to one silently left
+# the other behind.
+from .classify import WEAK_RULES as RESOLVE_RULES  # noqa: E402
 
 
 def classify_batch(client, names: list[str]) -> list[dict]:

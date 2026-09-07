@@ -45,6 +45,21 @@ ARTICLES = {"LA", "EL", "LAS", "LOS"}
 # the preposition ("MARIA DEL CARMEN"), so particles are dropped before lookup.
 MAX_GIVEN_TOKENS = 3
 
+# INE publishes every name borne by 20 people or more, so ordinary Spanish words
+# and plain surnames turn up in the given-name register: RONDA is a forename to
+# 34 people and a surname to 1,950, which is how "Ronda del Norte" -- a ring
+# road -- came to be classified as a woman.
+#
+# A frequency ratio alone cannot fix this, because the two groups overlap: Cortés
+# is 803x more often a surname and Medina 1,996x, yet Cortés el Viejo and Medina
+# Conde are people, while Ronda at 57x is a road. So the ratio is used only to
+# decide *which* rule applies, never to reject the name outright -- a token that
+# is overwhelmingly a surname is simply not read as a forename, and the name
+# falls through to the double-surname reading below.
+SURNAME_DOMINANCE = 8.0
+# Borne by this many people as a forename, it is a forename whatever else it is.
+FORENAME_FLOOR = 1000
+
 
 def singular(key: str) -> str | None:
     """Crude Spanish de-pluralisation, enough to match a lexicon entry.
@@ -112,7 +127,7 @@ REALNESS_BY_CATEGORY = {
 REALNESS_BY_SUB = {"saint": "real", "biblical": "real", "order": "n/a"}
 
 # Verdicts weak enough that a model label is allowed to replace them.
-WEAK_RULES = {"none", "surname_only", "given_only"}
+WEAK_RULES = {"none", "surname_only", "given_only", "surname_pair"}
 
 
 def _realness(cat: str, sub: str) -> str:
@@ -120,7 +135,7 @@ def _realness(cat: str, sub: str) -> str:
 
 
 def _gender_for(cat: str, g: str | None) -> str:
-    if g in {"f", "m", "mixed"}:
+    if g in {"f", "m", "mixed", "none"}:
         return g
     if g == "u":
         return "unknown"
@@ -138,10 +153,13 @@ class Classifier:
         marian = json.loads((base / "marian.json").read_text(encoding="utf-8"))
         self.marian = set(marian["advocations"])
         self.devotional = set(marian["devotional_context"])
+        self.impersonal_devotions = set(marian["non_personal_devotions"])
         places = json.loads((base / "places.json").read_text(encoding="utf-8"))
         self.places = {sub: set(v) for sub, v in places.items() if sub != "_doc"}
         self.given = json.loads((SOURCES / "given_names_ine.json").read_text(encoding="utf-8"))
-        self.surnames = set(json.loads((SOURCES / "surnames_ine.json").read_text(encoding="utf-8")))
+        self.surname_freq: dict[str, int] = json.loads(
+            (SOURCES / "surnames_ine.json").read_text(encoding="utf-8"))
+        self.surnames = set(self.surname_freq)
         self.municipalities = set(json.loads(
             (SOURCES / "municipalities_ine.json").read_text(encoding="utf-8")))
         self.thesis = self._load_thesis()
@@ -197,6 +215,12 @@ class Classifier:
     def _from_role(self, tokens: list[str]) -> Verdict | None:
         if not tokens:
             return None
+        # A handful of vías are filed with the preposition still attached --
+        # "DE DOÑA TRINIDAD" -- which would otherwise hide the title behind it.
+        # Handled here rather than in normalise(), which would re-key every
+        # cached label for the sake of five names.
+        if tokens[0] in {"DE", "DEL"} and len(tokens) > 2:
+            tokens = tokens[1:]
         # "NUESTRA SENORA DE ..." is a two-word title.
         if tokens[0] == "NUESTRA":
             return Verdict("religion", "marian", "f", "fictional", 0.95,
@@ -227,6 +251,11 @@ class Classifier:
         hit = self.heads.get(tokens[0])
         if not hit or len(tokens) < 2:
             return None
+        # "Santa Cruz" is the Holy Cross, not a woman called Cruz. See
+        # `non_personal_devotions` in marian.json.
+        if hit["sub"] == "saint" and tokens[1] in self.impersonal_devotions:
+            return Verdict("religion", "devotion", "none", "n/a", 0.85, "head",
+                           f"devoción «{' '.join(tokens[:2]).title()}», no una persona")
         return Verdict(hit["cat"], hit["sub"], _gender_for(hit["cat"], hit.get("g")),
                        _realness(hit["cat"], hit["sub"]), 0.85, "head",
                        f"encabezado «{tokens[0].title()}»")
@@ -257,12 +286,25 @@ class Classifier:
                            "place", f"municipio INE: {key.title()}")
         return None
 
+    def _is_forename(self, candidate: str) -> bool:
+        """Is this string plausibly being used as a forename here?
+
+        See SURNAME_DOMINANCE: a token the country uses overwhelmingly as a
+        surname is not a forename, however many people also bear it as one.
+        """
+        info = self.given.get(candidate)
+        if not info:
+            return False
+        if info["n"] >= FORENAME_FLOOR:
+            return True
+        return self.surname_freq.get(candidate, 0) <= SURNAME_DOMINANCE * info["n"]
+
     def _split_given(self, tokens: list[str]) -> tuple[str | None, list[str]]:
         """Longest leading run of tokens that INE records as a given name."""
         core = [t for t in tokens if t not in PARTICLES]
         for n in range(min(MAX_GIVEN_TOKENS, len(core)), 0, -1):
             cand = " ".join(core[:n])
-            if cand in self.given:
+            if self._is_forename(cand):
                 # consume the matching tokens from the original sequence
                 used, seen = 0, 0
                 for i, t in enumerate(tokens):
@@ -273,6 +315,22 @@ class Classifier:
                         break
                 return cand, tokens[used:]
         return None, tokens
+
+    def _from_surname_pair(self, tokens: list[str]) -> Verdict | None:
+        """Two or more surnames and nothing else: a Spanish name, minus the forename.
+
+        "Moreno Carbonero", "Medina Conde", "Murillo Carrera" are people, and the
+        register writes them the way the city signs them -- by surname. Someone
+        is being commemorated, so the category is not in doubt; who they are, and
+        therefore their gender, is not recoverable from the surnames alone, and
+        saying so beats the old behaviour of reading the first surname as a
+        forename and reporting a gender on that basis.
+        """
+        core = [t for t in tokens if t not in PARTICLES]
+        if len(core) < 2 or not all(t in self.surnames for t in core):
+            return None
+        return Verdict("person", "other", "unknown", "real", 0.55, "surname_pair",
+                       f"apellidos INE «{' '.join(core[:2]).title()}», sin nombre")
 
     def _from_person(self, tokens: list[str]) -> Verdict | None:
         given, rest = self._split_given(tokens)
@@ -307,7 +365,7 @@ class Classifier:
 
     def _from_given_only(self, key: str) -> Verdict | None:
         info = self.given.get(key)
-        if not info:
+        if not info or not self._is_forename(key):
             return None
         gender = {"f": "f", "m": "m"}.get(info["sex"], "unknown")
         return Verdict("person", "other", gender, "unknown", 0.45, "given_only",
@@ -334,6 +392,7 @@ class Classifier:
                      lambda: self._from_place(key),
                      lambda: self._from_person(tokens),
                      lambda: self._from_given_only(key),
+                     lambda: self._from_surname_pair(tokens),
                      lambda: self._from_surname_only(key)):
             v = rule()
             if v:

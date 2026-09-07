@@ -363,6 +363,13 @@
   "reason": "apodo no identificado",
   "subcategory": "unresolved"
  },
+ "AGUILA MARINA": {
+  "category": "nature",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "águila pescadora",
+  "subcategory": "bird"
+ },
  "AGUILAR": {
   "category": "unknown",
   "gender": "unknown",
@@ -418,6 +425,13 @@
   "model": "claude-opus-5 (in-session)",
   "reason": "puerto de los Alazores",
   "subcategory": "oronym"
+ },
+ "ALBAN BERG": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "Alban Berg, compositor austriaco",
+  "subcategory": "music"
  },
  "ALBANIA": {
   "category": "place",
@@ -1678,6 +1692,20 @@
   "model": "claude-opus-5 (in-session)",
   "reason": "bancal de cultivo",
   "subcategory": "relief"
+ },
+ "BANDA DEL MAR": {
+  "category": "place",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "franja costera malagueña",
+  "subcategory": "local"
+ },
+ "BANDA DEL REAL CUERPO DE BOMBEROS": {
+  "category": "culture",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "banda de música de bomberos",
+  "subcategory": "artwork"
  },
  "BANDANEIRA": {
   "category": "place",
@@ -4731,6 +4759,13 @@
   "reason": "describe la vía",
   "subcategory": "descriptive"
  },
+ "CORTES LO": {
+  "category": "place",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "paraje malagueño",
+  "subcategory": "local"
+ },
  "CORTIJADA EL CERRADO": {
   "category": "landscape",
   "gender": "none",
@@ -5550,6 +5585,13 @@
   "reason": "describe la vía",
   "subcategory": "descriptive"
  },
+ "DOS DE MAYO": {
+  "category": "event",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "levantamiento del 2 de mayo de 1808",
+  "subcategory": "date"
+ },
  "DRACMA DEL": {
   "category": "culture",
   "gender": "none",
@@ -5717,6 +5759,13 @@
   "model": "claude-opus-5 (in-session)",
   "reason": "describe el paraje",
   "subcategory": "descriptive"
+ },
+ "ENCINA DE LA ZORRA": {
+  "category": "nature",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "encina",
+  "subcategory": "tree"
  },
  "ENEAS": {
   "category": "fictional",
@@ -6410,6 +6459,20 @@
   "model": "claude-opus-5 (in-session)",
   "reason": "la flor",
   "subcategory": "flower"
+ },
+ "FLORES": {
+  "category": "nature",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "las flores",
+  "subcategory": "flower"
+ },
+ "FLORES GARCIA": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "Francisco Flores García, escritor malagueño",
+  "subcategory": "letters"
  },
  "FLORIDOS": {
   "category": "landscape",
@@ -7398,6 +7461,20 @@
   "reason": "Getaria, Guipúzcoa",
   "subcategory": "municipality"
  },
+ "GUILLEN DE CASTRO": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "dramaturgo del Siglo de Oro",
+  "subcategory": "letters"
+ },
+ "GUILLEN ROBLES": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "Francisco Guillén Robles, arabista malagueño",
+  "subcategory": "letters"
+ },
  "GUILLERMO": {
   "category": "unknown",
   "gender": "unknown",
@@ -7586,6 +7663,34 @@
   "model": "claude-opus-5 (in-session)",
   "reason": "apellido sin nombre",
   "subcategory": "surname_only"
+ },
+ "HERNANDO DE BAEZA": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "cronista e intérprete en Granada",
+  "subcategory": "letters"
+ },
+ "HERNANDO DE SOTO": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "explorador de Florida",
+  "subcategory": "exploration"
+ },
+ "HERNANDO DE ZAFRA": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "secretario de los Reyes Católicos",
+  "subcategory": "politics"
+ },
+ "HERNANDO DEL PULGAR": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "cronista de los Reyes Católicos",
+  "subcategory": "letters"
  },
  "HERODOTO": {
   "category": "person",
@@ -9092,6 +9197,20 @@
   "reason": "apellidos sin nombre",
   "subcategory": "surname_only"
  },
+ "LUCENA ALTA": {
+  "category": "place",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "paraje malagueño",
+  "subcategory": "local"
+ },
+ "LUCENA BAJA": {
+  "category": "place",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "paraje malagueño",
+  "subcategory": "local"
+ },
  "LUCENITA": {
   "category": "place",
   "gender": "none",
@@ -9561,6 +9680,13 @@
   "reason": "Jorge Manrique, poeta",
   "subcategory": "letters"
  },
+ "MANRIQUE DE LARA": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "linaje Manrique de Lara",
+  "subcategory": "nobility"
+ },
  "MANZANOS": {
   "category": "nature",
   "gender": "none",
@@ -9827,6 +9953,13 @@
   "reason": "apodo no identificado",
   "subcategory": "unresolved"
  },
+ "MAYO DE": {
+  "category": "event",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "el mes de mayo",
+  "subcategory": "date"
+ },
  "MAYOR": {
   "category": "landscape",
   "gender": "none",
@@ -9882,6 +10015,20 @@
   "model": "claude-opus-5 (in-session)",
   "reason": "el médico",
   "subcategory": "health"
+ },
+ "MEDINA AZAHARA": {
+  "category": "place",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "ciudad palatina de Córdoba",
+  "subcategory": "local"
+ },
+ "MEDINA CONDE": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "Cristóbal Medina Conde, canónigo e historiador",
+  "subcategory": "letters"
  },
  "MEDIO AMBIENTAL": {
   "category": "abstract",
@@ -10695,6 +10842,27 @@
   "reason": "referente no identificado",
   "subcategory": "unresolved"
  },
+ "MORENO CARBONERO": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "José Moreno Carbonero, pintor malagueño",
+  "subcategory": "visual"
+ },
+ "MORENO NIETO": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "José Moreno Nieto, arabista",
+  "subcategory": "letters"
+ },
+ "MORENO VILLA": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "José Moreno Villa, poeta del 27",
+  "subcategory": "letters"
+ },
  "MORENOS": {
   "category": "unknown",
   "gender": "unknown",
@@ -11311,6 +11479,13 @@
   "reason": "barrio malagueño",
   "subcategory": "local"
  },
+ "OLMEDO LA FRESNEDA": {
+  "category": "place",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "paraje malagueño",
+  "subcategory": "local"
+ },
  "OLMOS": {
   "category": "nature",
   "gender": "none",
@@ -11899,6 +12074,27 @@
   "reason": "la Pasión",
   "subcategory": "devotion"
  },
+ "PASTOR CURIAMBRO": {
+  "category": "fictional",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "pastor de la literatura pastoril",
+  "subcategory": "literature"
+ },
+ "PASTOR DE FILIDA": {
+  "category": "culture",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "novela pastoril de Gálvez de Montalvo",
+  "subcategory": "artwork"
+ },
+ "PASTOR DE IBERIA": {
+  "category": "culture",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "novela pastoril de Bernardo de la Vega",
+  "subcategory": "artwork"
+ },
  "PATO DEL": {
   "category": "nature",
   "gender": "none",
@@ -11996,6 +12192,13 @@
   "model": "claude-opus-5 (in-session)",
   "reason": "la peña",
   "subcategory": "relief"
+ },
+ "PENA DE FRANCIA": {
+  "category": "place",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "Peña de Francia, Salamanca",
+  "subcategory": "oronym"
  },
  "PENDOLILLO": {
   "category": "unknown",
@@ -13215,6 +13418,13 @@
   "reason": "apellido sin nombre",
   "subcategory": "surname_only"
  },
+ "RAMOS CARRION": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "Miguel Ramos Carrión, dramaturgo",
+  "subcategory": "letters"
+ },
  "RANCHITO": {
   "category": "landscape",
   "gender": "none",
@@ -13691,6 +13901,13 @@
   "reason": "torero apodado Romerito",
   "subcategory": "bullfighting"
  },
+ "ROMERO DEL": {
+  "category": "nature",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "planta romero",
+  "subcategory": "flower"
+ },
  "ROMPEDIZO DEL": {
   "category": "place",
   "gender": "none",
@@ -14055,6 +14272,13 @@
   "reason": "apellido sin nombre",
   "subcategory": "surname_only"
  },
+ "SANCHO PANZA": {
+  "category": "fictional",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "escudero de don Quijote",
+  "subcategory": "literature"
+ },
  "SANCTI ESPIRITU": {
   "category": "religion",
   "gender": "none",
@@ -14411,6 +14635,13 @@
   "model": "claude-opus-5 (in-session)",
   "reason": "oficio de sillero",
   "subcategory": "occupation"
+ },
+ "SILVA LO": {
+  "category": "place",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "paraje malagueño",
+  "subcategory": "local"
  },
  "SILVINA": {
   "category": "unknown",
@@ -15175,6 +15406,13 @@
   "reason": "referente no identificado",
   "subcategory": "unresolved"
  },
+ "TOMA DEL AGUA": {
+  "category": "landscape",
+  "gender": "none",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "toma de agua",
+  "subcategory": "hydrography"
+ },
  "TOPETE": {
   "category": "person",
   "gender": "m",
@@ -15679,6 +15917,13 @@
   "reason": "José Vargas Ponce, escritor y marino",
   "subcategory": "letters"
  },
+ "VASCO DE GAMA": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "navegante portugués",
+  "subcategory": "exploration"
+ },
  "VASIJA": {
   "category": "culture",
   "gender": "none",
@@ -16133,6 +16378,13 @@
   "model": "claude-opus-5 (in-session)",
   "reason": "describe las vistas",
   "subcategory": "descriptive"
+ },
+ "VITAL AZA": {
+  "category": "person",
+  "gender": "m",
+  "model": "claude-opus-5 (in-session)",
+  "reason": "Vital Aza, dramaturgo",
+  "subcategory": "letters"
  },
  "VIVALDI": {
   "category": "person",

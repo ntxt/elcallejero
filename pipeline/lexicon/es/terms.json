@@ -1,197 +1,1296 @@
 {
   "_doc": "Whole-name matches, tried after leading and trailing articles are stripped. These are the names that designate a thing rather than a person, and they are the reason a callejero can be read as a vocabulary: fruit, trees, winds, virtues, guilds and musical forms are each a naming fashion of their own period.",
-
-  "ALMENDRO": {"cat": "nature", "sub": "tree"}, "ALMENDROS": {"cat": "nature", "sub": "tree"},
-  "OLIVO": {"cat": "nature", "sub": "tree"}, "OLIVOS": {"cat": "nature", "sub": "tree"},
-  "ACEBUCHE": {"cat": "nature", "sub": "tree"}, "ALGARROBO": {"cat": "nature", "sub": "tree"},
-  "ALAMO": {"cat": "nature", "sub": "tree"}, "ALAMOS": {"cat": "nature", "sub": "tree"},
-  "ENCINA": {"cat": "nature", "sub": "tree"}, "ENCINAS": {"cat": "nature", "sub": "tree"},
-  "ALCORNOQUE": {"cat": "nature", "sub": "tree"}, "PINO": {"cat": "nature", "sub": "tree"},
-  "PINOS": {"cat": "nature", "sub": "tree"}, "PINAR": {"cat": "nature", "sub": "tree"},
-  "CIPRES": {"cat": "nature", "sub": "tree"}, "CIPRESES": {"cat": "nature", "sub": "tree"},
-  "CHOPO": {"cat": "nature", "sub": "tree"}, "SAUCE": {"cat": "nature", "sub": "tree"},
-  "FRESNO": {"cat": "nature", "sub": "tree"}, "CASTANO": {"cat": "nature", "sub": "tree"},
-  "NOGAL": {"cat": "nature", "sub": "tree"}, "ROBLE": {"cat": "nature", "sub": "tree"},
-  "PALMERA": {"cat": "nature", "sub": "tree"}, "PALMERAS": {"cat": "nature", "sub": "tree"},
-  "EUCALIPTO": {"cat": "nature", "sub": "tree"}, "CEDRO": {"cat": "nature", "sub": "tree"},
-  "MORERA": {"cat": "nature", "sub": "tree"}, "ACACIA": {"cat": "nature", "sub": "tree"},
-  "ACACIAS": {"cat": "nature", "sub": "tree"}, "JACARANDA": {"cat": "nature", "sub": "tree"},
-  "ALGARROBOS": {"cat": "nature", "sub": "tree"}, "LAUREL": {"cat": "nature", "sub": "tree"},
-  "MADRONO": {"cat": "nature", "sub": "tree"}, "TARAJE": {"cat": "nature", "sub": "tree"},
-  "OLIVAR": {"cat": "nature", "sub": "tree"}, "NARANJO": {"cat": "nature", "sub": "tree"},
-  "NARANJOS": {"cat": "nature", "sub": "tree"}, "LIMONERO": {"cat": "nature", "sub": "tree"},
-
-  "NARANJA": {"cat": "nature", "sub": "fruit"}, "LIMON": {"cat": "nature", "sub": "fruit"},
-  "MANZANA": {"cat": "nature", "sub": "fruit"}, "PERA": {"cat": "nature", "sub": "fruit"},
-  "UVA": {"cat": "nature", "sub": "fruit"}, "UVAS": {"cat": "nature", "sub": "fruit"},
-  "HIGO": {"cat": "nature", "sub": "fruit"}, "HIGUERA": {"cat": "nature", "sub": "fruit"},
-  "HIGUERAS": {"cat": "nature", "sub": "fruit"}, "BREVA": {"cat": "nature", "sub": "fruit"},
-  "GRANADA": {"cat": "nature", "sub": "fruit"}, "MEMBRILLO": {"cat": "nature", "sub": "fruit"},
-  "CIRUELA": {"cat": "nature", "sub": "fruit"}, "CEREZA": {"cat": "nature", "sub": "fruit"},
-  "CEREZO": {"cat": "nature", "sub": "fruit"}, "ALBARICOQUE": {"cat": "nature", "sub": "fruit"},
-  "MELOCOTON": {"cat": "nature", "sub": "fruit"}, "NISPERO": {"cat": "nature", "sub": "fruit"},
-  "NISPEROS": {"cat": "nature", "sub": "fruit"}, "CHIRIMOYA": {"cat": "nature", "sub": "fruit"},
-  "AGUACATE": {"cat": "nature", "sub": "fruit"}, "MANGO": {"cat": "nature", "sub": "fruit"},
-  "PLATANO": {"cat": "nature", "sub": "fruit"}, "SANDIA": {"cat": "nature", "sub": "fruit"},
-  "MELON": {"cat": "nature", "sub": "fruit"}, "ALMENDRA": {"cat": "nature", "sub": "fruit"},
-  "DATIL": {"cat": "nature", "sub": "fruit"}, "MORA": {"cat": "nature", "sub": "fruit"},
-  "FRESA": {"cat": "nature", "sub": "fruit"}, "PASA": {"cat": "nature", "sub": "fruit"},
-  "PASAS": {"cat": "nature", "sub": "fruit"}, "AZAHAR": {"cat": "nature", "sub": "flower"},
-
-  "ROSA": {"cat": "nature", "sub": "flower"}, "ROSAS": {"cat": "nature", "sub": "flower"},
-  "CLAVEL": {"cat": "nature", "sub": "flower"}, "CLAVELES": {"cat": "nature", "sub": "flower"},
-  "JAZMIN": {"cat": "nature", "sub": "flower"}, "JAZMINES": {"cat": "nature", "sub": "flower"},
-  "AZUCENA": {"cat": "nature", "sub": "flower"}, "AZUCENAS": {"cat": "nature", "sub": "flower"},
-  "VIOLETA": {"cat": "nature", "sub": "flower"}, "VIOLETAS": {"cat": "nature", "sub": "flower"},
-  "AMAPOLA": {"cat": "nature", "sub": "flower"}, "AMAPOLAS": {"cat": "nature", "sub": "flower"},
-  "MARGARITA": {"cat": "nature", "sub": "flower"}, "GERANIO": {"cat": "nature", "sub": "flower"},
-  "GERANIOS": {"cat": "nature", "sub": "flower"}, "LIRIO": {"cat": "nature", "sub": "flower"},
-  "LIRIOS": {"cat": "nature", "sub": "flower"}, "TULIPAN": {"cat": "nature", "sub": "flower"},
-  "ORQUIDEA": {"cat": "nature", "sub": "flower"}, "GARDENIA": {"cat": "nature", "sub": "flower"},
-  "CAMELIA": {"cat": "nature", "sub": "flower"}, "BUGANVILLA": {"cat": "nature", "sub": "flower"},
-  "ADELFA": {"cat": "nature", "sub": "flower"}, "ADELFAS": {"cat": "nature", "sub": "flower"},
-  "MADRESELVA": {"cat": "nature", "sub": "flower"}, "NARDO": {"cat": "nature", "sub": "flower"},
-  "ALHELI": {"cat": "nature", "sub": "flower"}, "MIMOSA": {"cat": "nature", "sub": "flower"},
-  "ROMERO": {"cat": "nature", "sub": "flower"}, "TOMILLO": {"cat": "nature", "sub": "flower"},
-  "LAVANDA": {"cat": "nature", "sub": "flower"}, "MEJORANA": {"cat": "nature", "sub": "flower"},
-  "ALBAHACA": {"cat": "nature", "sub": "flower"}, "HIERBABUENA": {"cat": "nature", "sub": "flower"},
-  "RETAMA": {"cat": "nature", "sub": "flower"}, "JARA": {"cat": "nature", "sub": "flower"},
-  "ESPLIEGO": {"cat": "nature", "sub": "flower"}, "HIEDRA": {"cat": "nature", "sub": "flower"},
-
-  "GOLONDRINA": {"cat": "nature", "sub": "bird"}, "GOLONDRINAS": {"cat": "nature", "sub": "bird"},
-  "JILGUERO": {"cat": "nature", "sub": "bird"}, "RUISENOR": {"cat": "nature", "sub": "bird"},
-  "GORRION": {"cat": "nature", "sub": "bird"}, "ALONDRA": {"cat": "nature", "sub": "bird"},
-  "CALANDRIA": {"cat": "nature", "sub": "bird"}, "PALOMA": {"cat": "nature", "sub": "bird"},
-  "PALOMAS": {"cat": "nature", "sub": "bird"}, "GAVIOTA": {"cat": "nature", "sub": "bird"},
-  "GAVIOTAS": {"cat": "nature", "sub": "bird"}, "CIGUENA": {"cat": "nature", "sub": "bird"},
-  "AGUILA": {"cat": "nature", "sub": "bird"}, "HALCON": {"cat": "nature", "sub": "bird"},
-  "CERNICALO": {"cat": "nature", "sub": "bird"}, "MIRLO": {"cat": "nature", "sub": "bird"},
-  "PETIRROJO": {"cat": "nature", "sub": "bird"}, "VERDERON": {"cat": "nature", "sub": "bird"},
-  "CANARIO": {"cat": "nature", "sub": "bird"}, "FLAMENCO": {"cat": "nature", "sub": "bird"},
-  "GARZA": {"cat": "nature", "sub": "bird"}, "AVUTARDA": {"cat": "nature", "sub": "bird"},
-  "PERDIZ": {"cat": "nature", "sub": "bird"}, "CODORNIZ": {"cat": "nature", "sub": "bird"},
-  "ABUBILLA": {"cat": "nature", "sub": "bird"}, "LECHUZA": {"cat": "nature", "sub": "bird"},
-
-  "GACELA": {"cat": "nature", "sub": "animal"}, "CIERVO": {"cat": "nature", "sub": "animal"},
-  "CORZO": {"cat": "nature", "sub": "animal"}, "JABALI": {"cat": "nature", "sub": "animal"},
-  "ZORRO": {"cat": "nature", "sub": "animal"}, "LOBO": {"cat": "nature", "sub": "animal"},
-  "LINCE": {"cat": "nature", "sub": "animal"}, "GAMO": {"cat": "nature", "sub": "animal"},
-  "POTRO": {"cat": "nature", "sub": "animal"}, "CABALLO": {"cat": "nature", "sub": "animal"},
-  "MARIPOSA": {"cat": "nature", "sub": "animal"}, "LIBELULA": {"cat": "nature", "sub": "animal"},
-  "LUCIERNAGA": {"cat": "nature", "sub": "animal"}, "ABEJA": {"cat": "nature", "sub": "animal"},
-  "DELFIN": {"cat": "nature", "sub": "sea_life"}, "BALLENA": {"cat": "nature", "sub": "sea_life"},
-  "CORAL": {"cat": "nature", "sub": "sea_life"}, "ANEMONA": {"cat": "nature", "sub": "sea_life"},
-  "BOQUERON": {"cat": "nature", "sub": "sea_life"}, "SARDINA": {"cat": "nature", "sub": "sea_life"},
-  "JABEGA": {"cat": "culture", "sub": "vessel"}, "CARABELA": {"cat": "culture", "sub": "vessel"},
-  "GALEON": {"cat": "culture", "sub": "vessel"}, "FRAGATA": {"cat": "culture", "sub": "vessel"},
-  "BERGANTIN": {"cat": "culture", "sub": "vessel"}, "GOLETA": {"cat": "culture", "sub": "vessel"},
-
-  "ESMERALDA": {"cat": "nature", "sub": "mineral"}, "RUBI": {"cat": "nature", "sub": "mineral"},
-  "ZAFIRO": {"cat": "nature", "sub": "mineral"}, "DIAMANTE": {"cat": "nature", "sub": "mineral"},
-  "TOPACIO": {"cat": "nature", "sub": "mineral"}, "AMATISTA": {"cat": "nature", "sub": "mineral"},
-  "AGATA": {"cat": "nature", "sub": "mineral"}, "AZABACHE": {"cat": "nature", "sub": "mineral"},
-  "MARFIL": {"cat": "nature", "sub": "mineral"}, "AMBAR": {"cat": "nature", "sub": "mineral"},
-  "CUARZO": {"cat": "nature", "sub": "mineral"}, "PIZARRA": {"cat": "nature", "sub": "mineral"},
-  "MARMOL": {"cat": "nature", "sub": "mineral"}, "ALABASTRO": {"cat": "nature", "sub": "mineral"},
-  "SALITRE": {"cat": "nature", "sub": "mineral"}, "AZUFRE": {"cat": "nature", "sub": "mineral"},
-
-  "ESTRELLA": {"cat": "nature", "sub": "celestial"}, "LUCERO": {"cat": "nature", "sub": "celestial"},
-  "COMETA": {"cat": "nature", "sub": "celestial"}, "GALAXIA": {"cat": "nature", "sub": "celestial"},
-  "NEBULOSA": {"cat": "nature", "sub": "celestial"}, "ECLIPSE": {"cat": "nature", "sub": "celestial"},
-  "ORION": {"cat": "nature", "sub": "celestial"}, "CENTAURO": {"cat": "fictional", "sub": "mythology"},
-  "OSA MAYOR": {"cat": "nature", "sub": "celestial"}, "VIA LACTEA": {"cat": "nature", "sub": "celestial"},
-  "TERRAL": {"cat": "nature", "sub": "weather"}, "LEVANTE": {"cat": "nature", "sub": "weather"},
-  "PONIENTE": {"cat": "nature", "sub": "weather"}, "CIERZO": {"cat": "nature", "sub": "weather"},
-  "TRAMONTANA": {"cat": "nature", "sub": "weather"}, "SIROCO": {"cat": "nature", "sub": "weather"},
-  "ROCIO": {"cat": "religion", "sub": "marian", "g": "f"}, "ALISIO": {"cat": "nature", "sub": "weather"},
-
-  "ALFARERO": {"cat": "trade", "sub": "occupation", "g": "m"},
-  "ALFAREROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "HERRERO": {"cat": "trade", "sub": "occupation", "g": "m"},
-  "HERREROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "CURTIDORES": {"cat": "trade", "sub": "guild", "g": "m"},
-  "TEJEDORES": {"cat": "trade", "sub": "guild", "g": "m"},
-  "TINTOREROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "ZAPATEROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "PANADEROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "CARPINTEROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "PESCADORES": {"cat": "trade", "sub": "guild", "g": "m"},
-  "MARINEROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "ARRIEROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "HORTELANOS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "TONELEROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "CALDEREROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "ESPARTEROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "SILLEROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "PLATEROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "SOMBREREROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "CEREROS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "BOTICARIOS": {"cat": "trade", "sub": "guild", "g": "m"},
-  "COSARIAS": {"cat": "trade", "sub": "guild", "g": "f"},
-  "FAENERAS": {"cat": "trade", "sub": "guild", "g": "f"},
-  "CIGARRERAS": {"cat": "trade", "sub": "guild", "g": "f"},
-  "LAVANDERAS": {"cat": "trade", "sub": "guild", "g": "f"},
-  "COSTURERAS": {"cat": "trade", "sub": "guild", "g": "f"},
-  "BORDADORAS": {"cat": "trade", "sub": "guild", "g": "f"},
-  "HILANDERAS": {"cat": "trade", "sub": "guild", "g": "f"},
-  "MODISTAS": {"cat": "trade", "sub": "guild", "g": "f"},
-  "NODRIZAS": {"cat": "trade", "sub": "guild", "g": "f"},
-  "JARDINERA": {"cat": "trade", "sub": "occupation", "g": "f"},
-  "ADORATRICES": {"cat": "religion", "sub": "order", "g": "f"},
-  "CARMELITAS": {"cat": "religion", "sub": "order", "g": "f"},
-  "AGUSTINAS": {"cat": "religion", "sub": "order", "g": "f"},
-  "CLARISAS": {"cat": "religion", "sub": "order", "g": "f"},
-  "SALESIANAS": {"cat": "religion", "sub": "order", "g": "f"},
-  "MERCEDARIAS": {"cat": "religion", "sub": "order", "g": "f"},
-  "DOMINICAS": {"cat": "religion", "sub": "order", "g": "f"},
-  "CAPUCHINAS": {"cat": "religion", "sub": "order", "g": "f"},
-  "BEATAS": {"cat": "religion", "sub": "order", "g": "f"},
-  "MONJAS": {"cat": "religion", "sub": "order", "g": "f"},
-  "TRINITARIAS": {"cat": "religion", "sub": "order", "g": "f"},
-  "FRANCISCANOS": {"cat": "religion", "sub": "order", "g": "m"},
-  "DOMINICOS": {"cat": "religion", "sub": "order", "g": "m"},
-  "JESUITAS": {"cat": "religion", "sub": "order", "g": "m"},
-  "CAPUCHINOS": {"cat": "religion", "sub": "order", "g": "m"},
-  "AGUSTINOS": {"cat": "religion", "sub": "order", "g": "m"},
-  "MERCEDARIOS": {"cat": "religion", "sub": "order", "g": "m"},
-
-  "PAZ": {"cat": "abstract", "sub": "virtue"}, "LIBERTAD": {"cat": "abstract", "sub": "virtue"},
-  "IGUALDAD": {"cat": "abstract", "sub": "virtue"}, "JUSTICIA": {"cat": "abstract", "sub": "virtue"},
-  "FRATERNIDAD": {"cat": "abstract", "sub": "virtue"}, "SOLIDARIDAD": {"cat": "abstract", "sub": "virtue"},
-  "TOLERANCIA": {"cat": "abstract", "sub": "virtue"}, "CONCORDIA": {"cat": "abstract", "sub": "virtue"},
-  "LEALTAD": {"cat": "abstract", "sub": "virtue"}, "HONRADEZ": {"cat": "abstract", "sub": "virtue"},
-  "PRUDENCIA": {"cat": "abstract", "sub": "virtue"}, "TEMPLANZA": {"cat": "abstract", "sub": "virtue"},
-  "FORTALEZA": {"cat": "abstract", "sub": "virtue"}, "CONSTANCIA": {"cat": "abstract", "sub": "virtue"},
-  "ARMONIA": {"cat": "abstract", "sub": "virtue"}, "AMISTAD": {"cat": "abstract", "sub": "virtue"},
-  "ALEGRIA": {"cat": "abstract", "sub": "concept"}, "ILUSION": {"cat": "abstract", "sub": "concept"},
-  "ESPERANZA": {"cat": "religion", "sub": "marian", "g": "f"},
-  "AURORA": {"cat": "abstract", "sub": "concept"}, "ALBA": {"cat": "abstract", "sub": "concept"},
-  "PROGRESO": {"cat": "abstract", "sub": "concept"}, "TRABAJO": {"cat": "abstract", "sub": "concept"},
-  "UNION": {"cat": "abstract", "sub": "concept"}, "VICTORIA": {"cat": "abstract", "sub": "concept"},
-  "MEMORIA": {"cat": "abstract", "sub": "concept"}, "UTOPIA": {"cat": "abstract", "sub": "concept"},
-  "CONVIVENCIA": {"cat": "abstract", "sub": "virtue"}, "DIGNIDAD": {"cat": "abstract", "sub": "virtue"},
-
-  "SOLEA": {"cat": "culture", "sub": "music_form"}, "SOLEARES": {"cat": "culture", "sub": "music_form"},
-  "BULERIA": {"cat": "culture", "sub": "music_form"}, "BULERIAS": {"cat": "culture", "sub": "music_form"},
-  "SEGUIRIYA": {"cat": "culture", "sub": "music_form"}, "ALEGRIAS": {"cat": "culture", "sub": "music_form"},
-  "MALAGUENA": {"cat": "culture", "sub": "music_form"}, "MALAGUENAS": {"cat": "culture", "sub": "music_form"},
-  "VERDIALES": {"cat": "culture", "sub": "music_form"}, "FANDANGO": {"cat": "culture", "sub": "music_form"},
-  "FANDANGOS": {"cat": "culture", "sub": "music_form"}, "SEVILLANAS": {"cat": "culture", "sub": "music_form"},
-  "TARANTA": {"cat": "culture", "sub": "music_form"}, "GRANAINA": {"cat": "culture", "sub": "music_form"},
-  "PETENERA": {"cat": "culture", "sub": "music_form"}, "SAETA": {"cat": "culture", "sub": "music_form"},
-  "ZAMBRA": {"cat": "culture", "sub": "music_form"}, "TANGUILLO": {"cat": "culture", "sub": "music_form"},
-  "CANTINAS": {"cat": "culture", "sub": "music_form"}, "SIGUIRIYAS": {"cat": "culture", "sub": "music_form"},
-  "COPLA": {"cat": "culture", "sub": "music_form"}, "TIENTOS": {"cat": "culture", "sub": "music_form"},
-
-  "CONSTITUCION": {"cat": "event", "sub": "historical"},
-  "REPUBLICA": {"cat": "event", "sub": "historical"},
-  "REVOLUCION": {"cat": "event", "sub": "historical"},
-  "RECONQUISTA": {"cat": "event", "sub": "historical"},
-  "DESCUBRIMIENTO": {"cat": "event", "sub": "historical"},
-  "INDEPENDENCIA": {"cat": "event", "sub": "historical"},
-  "NAVIDAD": {"cat": "event", "sub": "festivity"},
-  "NOCHEBUENA": {"cat": "event", "sub": "festivity"},
-  "CARNAVAL": {"cat": "event", "sub": "festivity"},
-  "SEMANA SANTA": {"cat": "event", "sub": "festivity"},
-  "CORPUS CHRISTI": {"cat": "event", "sub": "festivity"}
+  "ALMENDRO": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "ALMENDROS": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "OLIVO": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "OLIVOS": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "ACEBUCHE": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "ALGARROBO": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "ALAMO": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "ALAMOS": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "ENCINA": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "ENCINAS": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "ALCORNOQUE": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "PINO": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "PINOS": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "PINAR": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "CIPRES": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "CIPRESES": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "CHOPO": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "SAUCE": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "FRESNO": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "CASTANO": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "NOGAL": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "ROBLE": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "PALMERA": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "PALMERAS": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "EUCALIPTO": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "CEDRO": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "MORERA": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "ACACIA": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "ACACIAS": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "JACARANDA": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "ALGARROBOS": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "LAUREL": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "MADRONO": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "TARAJE": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "OLIVAR": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "NARANJO": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "NARANJOS": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "LIMONERO": {
+    "cat": "nature",
+    "sub": "tree"
+  },
+  "NARANJA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "LIMON": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "MANZANA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "PERA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "UVA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "UVAS": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "HIGO": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "HIGUERA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "HIGUERAS": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "BREVA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "GRANADA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "MEMBRILLO": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "CIRUELA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "CEREZA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "CEREZO": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "ALBARICOQUE": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "MELOCOTON": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "NISPERO": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "NISPEROS": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "CHIRIMOYA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "AGUACATE": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "MANGO": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "PLATANO": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "SANDIA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "MELON": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "ALMENDRA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "DATIL": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "MORA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "FRESA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "PASA": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "PASAS": {
+    "cat": "nature",
+    "sub": "fruit"
+  },
+  "AZAHAR": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "ROSA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "ROSAS": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "CLAVEL": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "CLAVELES": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "JAZMIN": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "JAZMINES": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "AZUCENA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "AZUCENAS": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "VIOLETA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "VIOLETAS": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "AMAPOLA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "AMAPOLAS": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "MARGARITA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "GERANIO": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "GERANIOS": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "LIRIO": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "LIRIOS": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "TULIPAN": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "ORQUIDEA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "GARDENIA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "CAMELIA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "BUGANVILLA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "ADELFA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "ADELFAS": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "MADRESELVA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "NARDO": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "ALHELI": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "MIMOSA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "ROMERO": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "TOMILLO": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "LAVANDA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "MEJORANA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "ALBAHACA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "HIERBABUENA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "RETAMA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "JARA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "ESPLIEGO": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "HIEDRA": {
+    "cat": "nature",
+    "sub": "flower"
+  },
+  "GOLONDRINA": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "GOLONDRINAS": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "JILGUERO": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "RUISENOR": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "GORRION": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "ALONDRA": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "CALANDRIA": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "PALOMA": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "PALOMAS": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "GAVIOTA": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "GAVIOTAS": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "CIGUENA": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "AGUILA": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "HALCON": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "CERNICALO": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "MIRLO": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "PETIRROJO": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "VERDERON": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "CANARIO": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "FLAMENCO": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "GARZA": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "AVUTARDA": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "PERDIZ": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "CODORNIZ": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "ABUBILLA": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "LECHUZA": {
+    "cat": "nature",
+    "sub": "bird"
+  },
+  "GACELA": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "CIERVO": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "CORZO": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "JABALI": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "ZORRO": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "LOBO": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "LINCE": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "GAMO": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "POTRO": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "CABALLO": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "MARIPOSA": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "LIBELULA": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "LUCIERNAGA": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "ABEJA": {
+    "cat": "nature",
+    "sub": "animal"
+  },
+  "DELFIN": {
+    "cat": "nature",
+    "sub": "sea_life"
+  },
+  "BALLENA": {
+    "cat": "nature",
+    "sub": "sea_life"
+  },
+  "CORAL": {
+    "cat": "nature",
+    "sub": "sea_life"
+  },
+  "ANEMONA": {
+    "cat": "nature",
+    "sub": "sea_life"
+  },
+  "BOQUERON": {
+    "cat": "nature",
+    "sub": "sea_life"
+  },
+  "SARDINA": {
+    "cat": "nature",
+    "sub": "sea_life"
+  },
+  "JABEGA": {
+    "cat": "culture",
+    "sub": "vessel"
+  },
+  "CARABELA": {
+    "cat": "culture",
+    "sub": "vessel"
+  },
+  "GALEON": {
+    "cat": "culture",
+    "sub": "vessel"
+  },
+  "FRAGATA": {
+    "cat": "culture",
+    "sub": "vessel"
+  },
+  "BERGANTIN": {
+    "cat": "culture",
+    "sub": "vessel"
+  },
+  "GOLETA": {
+    "cat": "culture",
+    "sub": "vessel"
+  },
+  "ESMERALDA": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "RUBI": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "ZAFIRO": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "DIAMANTE": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "TOPACIO": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "AMATISTA": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "AGATA": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "AZABACHE": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "MARFIL": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "AMBAR": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "CUARZO": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "PIZARRA": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "MARMOL": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "ALABASTRO": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "SALITRE": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "AZUFRE": {
+    "cat": "nature",
+    "sub": "mineral"
+  },
+  "ESTRELLA": {
+    "cat": "nature",
+    "sub": "celestial"
+  },
+  "LUCERO": {
+    "cat": "nature",
+    "sub": "celestial"
+  },
+  "COMETA": {
+    "cat": "nature",
+    "sub": "celestial"
+  },
+  "GALAXIA": {
+    "cat": "nature",
+    "sub": "celestial"
+  },
+  "NEBULOSA": {
+    "cat": "nature",
+    "sub": "celestial"
+  },
+  "ECLIPSE": {
+    "cat": "nature",
+    "sub": "celestial"
+  },
+  "ORION": {
+    "cat": "nature",
+    "sub": "celestial"
+  },
+  "CENTAURO": {
+    "cat": "fictional",
+    "sub": "mythology"
+  },
+  "OSA MAYOR": {
+    "cat": "nature",
+    "sub": "celestial"
+  },
+  "VIA LACTEA": {
+    "cat": "nature",
+    "sub": "celestial"
+  },
+  "TERRAL": {
+    "cat": "nature",
+    "sub": "weather"
+  },
+  "LEVANTE": {
+    "cat": "nature",
+    "sub": "weather"
+  },
+  "PONIENTE": {
+    "cat": "nature",
+    "sub": "weather"
+  },
+  "CIERZO": {
+    "cat": "nature",
+    "sub": "weather"
+  },
+  "TRAMONTANA": {
+    "cat": "nature",
+    "sub": "weather"
+  },
+  "SIROCO": {
+    "cat": "nature",
+    "sub": "weather"
+  },
+  "ROCIO": {
+    "cat": "religion",
+    "sub": "marian",
+    "g": "f"
+  },
+  "ALISIO": {
+    "cat": "nature",
+    "sub": "weather"
+  },
+  "ALFARERO": {
+    "cat": "trade",
+    "sub": "occupation",
+    "g": "m"
+  },
+  "ALFAREROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "HERRERO": {
+    "cat": "trade",
+    "sub": "occupation",
+    "g": "m"
+  },
+  "HERREROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "CURTIDORES": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "TEJEDORES": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "TINTOREROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "ZAPATEROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "PANADEROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "CARPINTEROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "PESCADORES": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "MARINEROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "ARRIEROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "HORTELANOS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "TONELEROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "CALDEREROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "ESPARTEROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "SILLEROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "PLATEROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "SOMBREREROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "CEREROS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "BOTICARIOS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "m"
+  },
+  "COSARIAS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "f"
+  },
+  "FAENERAS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "f"
+  },
+  "CIGARRERAS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "f"
+  },
+  "LAVANDERAS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "f"
+  },
+  "COSTURERAS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "f"
+  },
+  "BORDADORAS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "f"
+  },
+  "HILANDERAS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "f"
+  },
+  "MODISTAS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "f"
+  },
+  "NODRIZAS": {
+    "cat": "trade",
+    "sub": "guild",
+    "g": "f"
+  },
+  "JARDINERA": {
+    "cat": "trade",
+    "sub": "occupation",
+    "g": "f"
+  },
+  "ADORATRICES": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "f"
+  },
+  "CARMELITAS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "f"
+  },
+  "AGUSTINAS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "f"
+  },
+  "CLARISAS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "f"
+  },
+  "SALESIANAS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "f"
+  },
+  "MERCEDARIAS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "f"
+  },
+  "DOMINICAS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "f"
+  },
+  "CAPUCHINAS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "f"
+  },
+  "BEATAS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "f"
+  },
+  "MONJAS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "f"
+  },
+  "TRINITARIAS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "f"
+  },
+  "FRANCISCANOS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "m"
+  },
+  "DOMINICOS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "m"
+  },
+  "JESUITAS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "m"
+  },
+  "CAPUCHINOS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "m"
+  },
+  "AGUSTINOS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "m"
+  },
+  "MERCEDARIOS": {
+    "cat": "religion",
+    "sub": "order",
+    "g": "m"
+  },
+  "PAZ": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "LIBERTAD": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "IGUALDAD": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "JUSTICIA": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "FRATERNIDAD": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "SOLIDARIDAD": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "TOLERANCIA": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "CONCORDIA": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "LEALTAD": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "HONRADEZ": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "PRUDENCIA": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "TEMPLANZA": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "FORTALEZA": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "CONSTANCIA": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "ARMONIA": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "AMISTAD": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "ALEGRIA": {
+    "cat": "abstract",
+    "sub": "concept"
+  },
+  "ILUSION": {
+    "cat": "abstract",
+    "sub": "concept"
+  },
+  "ESPERANZA": {
+    "cat": "religion",
+    "sub": "marian",
+    "g": "f"
+  },
+  "AURORA": {
+    "cat": "abstract",
+    "sub": "concept"
+  },
+  "ALBA": {
+    "cat": "abstract",
+    "sub": "concept"
+  },
+  "PROGRESO": {
+    "cat": "abstract",
+    "sub": "concept"
+  },
+  "TRABAJO": {
+    "cat": "abstract",
+    "sub": "concept"
+  },
+  "UNION": {
+    "cat": "abstract",
+    "sub": "concept"
+  },
+  "VICTORIA": {
+    "cat": "abstract",
+    "sub": "concept"
+  },
+  "MEMORIA": {
+    "cat": "abstract",
+    "sub": "concept"
+  },
+  "UTOPIA": {
+    "cat": "abstract",
+    "sub": "concept"
+  },
+  "CONVIVENCIA": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "DIGNIDAD": {
+    "cat": "abstract",
+    "sub": "virtue"
+  },
+  "SOLEA": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "SOLEARES": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "BULERIA": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "BULERIAS": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "SEGUIRIYA": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "ALEGRIAS": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "MALAGUENA": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "MALAGUENAS": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "VERDIALES": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "FANDANGO": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "FANDANGOS": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "SEVILLANAS": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "TARANTA": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "GRANAINA": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "PETENERA": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "SAETA": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "ZAMBRA": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "TANGUILLO": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "CANTINAS": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "SIGUIRIYAS": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "COPLA": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "TIENTOS": {
+    "cat": "culture",
+    "sub": "music_form"
+  },
+  "CONSTITUCION": {
+    "cat": "event",
+    "sub": "historical"
+  },
+  "REPUBLICA": {
+    "cat": "event",
+    "sub": "historical"
+  },
+  "REVOLUCION": {
+    "cat": "event",
+    "sub": "historical"
+  },
+  "RECONQUISTA": {
+    "cat": "event",
+    "sub": "historical"
+  },
+  "DESCUBRIMIENTO": {
+    "cat": "event",
+    "sub": "historical"
+  },
+  "INDEPENDENCIA": {
+    "cat": "event",
+    "sub": "historical"
+  },
+  "NAVIDAD": {
+    "cat": "event",
+    "sub": "festivity"
+  },
+  "NOCHEBUENA": {
+    "cat": "event",
+    "sub": "festivity"
+  },
+  "CARNAVAL": {
+    "cat": "event",
+    "sub": "festivity"
+  },
+  "SEMANA SANTA": {
+    "cat": "event",
+    "sub": "festivity"
+  },
+  "CORPUS CHRISTI": {
+    "cat": "event",
+    "sub": "festivity"
+  },
+  "TRINIDAD": {
+    "cat": "religion",
+    "sub": "devotion",
+    "g": "none"
+  },
+  "SANTISIMA TRINIDAD": {
+    "cat": "religion",
+    "sub": "devotion",
+    "g": "none"
+  },
+  "AURORA BOREAL": {
+    "cat": "nature",
+    "sub": "celestial"
+  },
+  "SECO OLOROSO": {
+    "cat": "culture",
+    "sub": "artwork"
+  },
+  "OLOROSO": {
+    "cat": "culture",
+    "sub": "artwork"
+  }
 }

@@ -153,6 +153,7 @@ export const RULE_LABEL: Record<string, Record<Lang, string>> = {
   person: { es: "Nombre y apellido (INE)", en: "Given name + surname (INE)" },
   given_only: { es: "Sólo nombre de pila", en: "Given name only" },
   surname_only: { es: "Sólo apellido", en: "Surname only" },
+  surname_pair: { es: "Apellidos, sin nombre", en: "Surnames, no forename" },
   marian: { es: "Advocación mariana", en: "Marian devotion" },
   llm: { es: "Modelo de lenguaje", en: "Language model" },
   none: { es: "Sin resolver", en: "Unresolved" },
@@ -161,7 +162,8 @@ export const RULE_LABEL: Record<string, Record<Lang, string>> = {
 const RULE_COLOUR: Record<string, string> = {
   thesis: "#d1477a", role: "#4f9ad6", head: "#54b982", term: "#e0a13c",
   myth: "#9c74d4", place: "#3fb3ba", person: "#5c7fd0", given_only: "#b58a3e",
-  surname_only: "#9ca3af", marian: "#d98324", llm: "#8c7fd6", none: "#6b7280",
+  surname_only: "#9ca3af", surname_pair: "#8b9199", marian: "#d98324",
+  llm: "#8c7fd6", none: "#6b7280",
 };
 
 /** A measurable property you can compare groups on. */
