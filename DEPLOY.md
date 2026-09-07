@@ -12,10 +12,17 @@ under `web/public/data`.
 
    | | |
    |---|---|
-   | Base directory | `web` |
-   | Build command | `npm ci && npm run build` |
-   | Publish directory | `dist` (relative to the base) |
+   | Base directory | *(leave empty)* |
+   | Build command | `cd web && npm ci && npm run build` |
+   | Publish directory | `web/dist` |
    | Node | 20 |
+
+   **Leave the base directory empty.** If it is set, Netlify resolves
+   `netlify.toml` relative to it and the root config is only partly read — the
+   build still succeeds, so the breakage is silent: caching and security headers
+   simply never apply. Check for it with
+   `curl -sI https://callejero.ntxt.net/assets/<hashed>.js | grep -i cache`,
+   which should report `max-age=31536000, immutable` and not `max-age=0`.
 
 2. **Add the domain.** *Domain management → Add a domain* →
    `callejero.ntxt.net`. Netlify will ask you to prove ownership by DNS.
@@ -32,6 +39,33 @@ under `web/public/data`.
 
 4. **Wait for the certificate.** Netlify issues Let's Encrypt automatically once
    the CNAME resolves, usually within a few minutes. Then turn on *Force HTTPS*.
+
+## Troubleshooting DNS
+
+`ntxt.net` is delegated to `ns1/ns2/ns3.domena.pl`, not to Netlify DNS, so adding
+the domain in Netlify does **not** create the record. Both steps are needed.
+
+Ask the authoritative nameserver directly — it skips every cache and separates a
+missing record from a slow one:
+
+```sh
+dig @ns1.domena.pl callejero.ntxt.net CNAME +short   # should print <site>.netlify.app.
+dig @1.1.1.1       callejero.ntxt.net        +short   # the public view
+```
+
+`NXDOMAIN` with the `aa` flag from the authoritative server means the record does
+not exist and nothing is propagating. Once it answers correctly, resolvers that
+already asked hold the negative answer for up to the zone's SOA minimum — 3600s
+here — and *that* wait is real propagation.
+
+Until Netlify has issued the certificate, the site answers HTTPS with its default
+`*.netlify.app` wildcard, which does not cover this hostname. Test over HTTP, or
+pin the address, until then:
+
+```sh
+curl -sI --resolve callejero.ntxt.net:80:$(dig +short @1.1.1.1 callejero.ntxt.net A | tail -1) \
+  http://callejero.ntxt.net/
+```
 
 ## Deploying a change
 

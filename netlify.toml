@@ -2,11 +2,16 @@
 # Málaga bundles it produces are committed under web/public/data, so a deploy is
 # a plain JavaScript build with no Python, no poppler and no 57 MB download.
 # Rebuild the data locally with `make all`, commit the bundles, and push.
+#
+# Deliberately no `base` setting. With a base directory set, Netlify resolves
+# netlify.toml relative to *that* directory, so this file at the repository root
+# is only partly read -- the build ran, but every [[headers]] block below was
+# silently ignored. Changing directory inside the command instead keeps this file
+# the single, unambiguous source of configuration.
 
 [build]
-  base = "web"
-  command = "npm ci && npm run build"
-  publish = "dist"
+  command = "cd web && npm ci && npm run build"
+  publish = "web/dist"
 
 [build.environment]
   NODE_VERSION = "20"
