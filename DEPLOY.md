@@ -17,12 +17,20 @@ under `web/public/data`.
    | Publish directory | `web/dist` |
    | Node | 20 |
 
-   **Leave the base directory empty.** If it is set, Netlify resolves
-   `netlify.toml` relative to it and the root config is only partly read — the
-   build still succeeds, so the breakage is silent: caching and security headers
-   simply never apply. Check for it with
-   `curl -sI https://callejero.ntxt.net/assets/<hashed>.js | grep -i cache`,
-   which should report `max-age=31536000, immutable` and not `max-age=0`.
+   **Leave the base directory empty** if you can. When it is set, Netlify
+   resolves `netlify.toml` relative to it, so a root config is only partly read
+   and the build still succeeds — the breakage is silent.
+
+   Header rules are therefore kept in `web/public/_headers` rather than in
+   `netlify.toml`. Vite copies `public/` into `dist/`, so that file lands at the
+   root of the published output, where Netlify reads it however the site is
+   configured. Verify with:
+
+   ```sh
+   curl -sI https://callejero.ntxt.net/ | grep -i x-content-type-options
+   ```
+
+   Nothing back means the deploy is stale or the build failed.
 
 2. **Add the domain.** *Domain management → Add a domain* →
    `callejero.ntxt.net`. Netlify will ask you to prove ownership by DNS.

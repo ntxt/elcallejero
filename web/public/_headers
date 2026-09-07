@@ -1,0 +1,26 @@
+# Header rules live here, not in netlify.toml, on purpose.
+#
+# netlify.toml is resolved relative to the site's base directory, and a base
+# directory set in the Netlify UI overrides the file. When the two disagree the
+# build still succeeds and the headers are simply dropped — which is how this
+# site spent several deploys serving `max-age=0` on fingerprinted assets with no
+# security headers, with nothing in the log to say so.
+#
+# _headers is read from the root of the *published output* instead, so it
+# applies however the site happens to be configured. Vite copies everything in
+# public/ into dist/, which puts this file exactly there.
+#
+# Rules are listed general first: a later, more specific path wins.
+
+/*
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Content-Type-Options: nosniff
+  Permissions-Policy: geolocation=(), camera=(), microphone=()
+
+# Vite fingerprints these, so they can be cached forever.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# The city bundles keep stable names and change when the pipeline is re-run.
+/data/*
+  Cache-Control: public, max-age=600, must-revalidate
