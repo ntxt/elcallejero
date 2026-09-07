@@ -1,0 +1,1233 @@
+{
+  "_doc": "Role, title and honorific words that open a Spanish street name. The key is the folded first word; g is the gender the word itself carries. A hit here is strong evidence of a person, and where the word is gender-marked it settles the gender axis without any need to recognise the name that follows.",
+  "ESCRITOR": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "m"
+  },
+  "ESCRITORA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "f"
+  },
+  "POETA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "u"
+  },
+  "POETISA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "f"
+  },
+  "NOVELISTA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "u"
+  },
+  "DRAMATURGO": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "m"
+  },
+  "DRAMATURGA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "f"
+  },
+  "CRONISTA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "u"
+  },
+  "BIBLIOTECARIA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "f"
+  },
+  "PINTOR": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "m"
+  },
+  "PINTORA": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "f"
+  },
+  "ESCULTOR": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "m"
+  },
+  "ESCULTORA": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "f"
+  },
+  "FOTOGRAFO": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "m"
+  },
+  "FOTOGRAFA": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "f"
+  },
+  "GRABADOR": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "m"
+  },
+  "CERAMISTA": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "u"
+  },
+  "CERAMISTAS": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "mixed"
+  },
+  "ORFEBRE": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "u"
+  },
+  "IMAGINERO": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "m"
+  },
+  "ACTOR": {
+    "cat": "person",
+    "sub": "performing",
+    "g": "m"
+  },
+  "ACTRIZ": {
+    "cat": "person",
+    "sub": "performing",
+    "g": "f"
+  },
+  "BAILAOR": {
+    "cat": "person",
+    "sub": "performing",
+    "g": "m"
+  },
+  "BAILAORA": {
+    "cat": "person",
+    "sub": "performing",
+    "g": "f"
+  },
+  "BAILARIN": {
+    "cat": "person",
+    "sub": "performing",
+    "g": "m"
+  },
+  "BAILARINA": {
+    "cat": "person",
+    "sub": "performing",
+    "g": "f"
+  },
+  "CANTAOR": {
+    "cat": "person",
+    "sub": "music",
+    "g": "m"
+  },
+  "CANTAORA": {
+    "cat": "person",
+    "sub": "music",
+    "g": "f"
+  },
+  "CANTANTE": {
+    "cat": "person",
+    "sub": "music",
+    "g": "u"
+  },
+  "TONADILLERA": {
+    "cat": "person",
+    "sub": "music",
+    "g": "f"
+  },
+  "GUITARRISTA": {
+    "cat": "person",
+    "sub": "music",
+    "g": "u"
+  },
+  "COMPOSITOR": {
+    "cat": "person",
+    "sub": "music",
+    "g": "m"
+  },
+  "COMPOSITORA": {
+    "cat": "person",
+    "sub": "music",
+    "g": "f"
+  },
+  "MUSICO": {
+    "cat": "person",
+    "sub": "music",
+    "g": "m"
+  },
+  "MAESTRO": {
+    "cat": "person",
+    "sub": "education",
+    "g": "m"
+  },
+  "MAESTRA": {
+    "cat": "person",
+    "sub": "education",
+    "g": "f"
+  },
+  "PROFESOR": {
+    "cat": "person",
+    "sub": "education",
+    "g": "m"
+  },
+  "PROFESORA": {
+    "cat": "person",
+    "sub": "education",
+    "g": "f"
+  },
+  "CATEDRATICO": {
+    "cat": "person",
+    "sub": "education",
+    "g": "m"
+  },
+  "CATEDRATICA": {
+    "cat": "person",
+    "sub": "education",
+    "g": "f"
+  },
+  "PEDAGOGO": {
+    "cat": "person",
+    "sub": "education",
+    "g": "m"
+  },
+  "PEDAGOGA": {
+    "cat": "person",
+    "sub": "education",
+    "g": "f"
+  },
+  "DECANO": {
+    "cat": "person",
+    "sub": "education",
+    "g": "m"
+  },
+  "DECANA": {
+    "cat": "person",
+    "sub": "education",
+    "g": "f"
+  },
+  "RECTOR": {
+    "cat": "person",
+    "sub": "education",
+    "g": "m"
+  },
+  "RECTORA": {
+    "cat": "person",
+    "sub": "education",
+    "g": "f"
+  },
+  "DOCTOR": {
+    "cat": "person",
+    "sub": "health",
+    "g": "m"
+  },
+  "DOCTORA": {
+    "cat": "person",
+    "sub": "health",
+    "g": "f"
+  },
+  "MEDICO": {
+    "cat": "person",
+    "sub": "health",
+    "g": "m"
+  },
+  "MEDICA": {
+    "cat": "person",
+    "sub": "health",
+    "g": "f"
+  },
+  "CIRUJANO": {
+    "cat": "person",
+    "sub": "health",
+    "g": "m"
+  },
+  "ENFERMERA": {
+    "cat": "person",
+    "sub": "health",
+    "g": "f"
+  },
+  "ENFERMERO": {
+    "cat": "person",
+    "sub": "health",
+    "g": "m"
+  },
+  "MATRONA": {
+    "cat": "person",
+    "sub": "health",
+    "g": "f"
+  },
+  "COMADRONA": {
+    "cat": "person",
+    "sub": "health",
+    "g": "f"
+  },
+  "PRACTICANTE": {
+    "cat": "person",
+    "sub": "health",
+    "g": "u"
+  },
+  "FARMACEUTICO": {
+    "cat": "person",
+    "sub": "health",
+    "g": "m"
+  },
+  "VETERINARIO": {
+    "cat": "person",
+    "sub": "health",
+    "g": "m"
+  },
+  "CIENTIFICO": {
+    "cat": "person",
+    "sub": "science",
+    "g": "m"
+  },
+  "CIENTIFICA": {
+    "cat": "person",
+    "sub": "science",
+    "g": "f"
+  },
+  "INVESTIGADOR": {
+    "cat": "person",
+    "sub": "science",
+    "g": "m"
+  },
+  "INVESTIGADORA": {
+    "cat": "person",
+    "sub": "science",
+    "g": "f"
+  },
+  "INGENIERO": {
+    "cat": "person",
+    "sub": "science",
+    "g": "m"
+  },
+  "INGENIERA": {
+    "cat": "person",
+    "sub": "science",
+    "g": "f"
+  },
+  "ARQUITECTO": {
+    "cat": "person",
+    "sub": "science",
+    "g": "m"
+  },
+  "ARQUITECTA": {
+    "cat": "person",
+    "sub": "science",
+    "g": "f"
+  },
+  "APAREJADOR": {
+    "cat": "person",
+    "sub": "science",
+    "g": "m"
+  },
+  "QUIMICO": {
+    "cat": "person",
+    "sub": "science",
+    "g": "m"
+  },
+  "MATEMATICO": {
+    "cat": "person",
+    "sub": "science",
+    "g": "m"
+  },
+  "ASTRONOMO": {
+    "cat": "person",
+    "sub": "science",
+    "g": "m"
+  },
+  "NATURALISTA": {
+    "cat": "person",
+    "sub": "science",
+    "g": "u"
+  },
+  "PERIODISTA": {
+    "cat": "person",
+    "sub": "journalism",
+    "g": "u"
+  },
+  "ABOGADO": {
+    "cat": "person",
+    "sub": "law",
+    "g": "m"
+  },
+  "ABOGADA": {
+    "cat": "person",
+    "sub": "law",
+    "g": "f"
+  },
+  "NOTARIO": {
+    "cat": "person",
+    "sub": "law",
+    "g": "m"
+  },
+  "JUEZ": {
+    "cat": "person",
+    "sub": "law",
+    "g": "u"
+  },
+  "FISCAL": {
+    "cat": "person",
+    "sub": "law",
+    "g": "u"
+  },
+  "REGISTRADOR": {
+    "cat": "person",
+    "sub": "law",
+    "g": "m"
+  },
+  "ALCALDE": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "m"
+  },
+  "ALCALDESA": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "f"
+  },
+  "CONCEJAL": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "m"
+  },
+  "CONCEJALA": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "f"
+  },
+  "CORREGIDOR": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "m"
+  },
+  "REGIDOR": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "m"
+  },
+  "GOBERNADOR": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "m"
+  },
+  "DIPUTADO": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "m"
+  },
+  "DIPUTADA": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "f"
+  },
+  "SENADOR": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "m"
+  },
+  "MINISTRO": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "m"
+  },
+  "MINISTRA": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "f"
+  },
+  "PRESIDENTE": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "m"
+  },
+  "PRESIDENTA": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "f"
+  },
+  "EMBAJADOR": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "m"
+  },
+  "CONSUL": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "u"
+  },
+  "GENERAL": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "CORONEL": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "COMANDANTE": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "CAPITAN": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "TENIENTE": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "ALFEREZ": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "SARGENTO": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "BRIGADA": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "ALMIRANTE": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "MARISCAL": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "SOLDADO": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "MILICIANO": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "OBISPO": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "ARZOBISPO": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "CARDENAL": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "PAPA": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "PONTIFICE": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "FRAY": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "SOR": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "f"
+  },
+  "MONSENOR": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "CANONIGO": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "PARROCO": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "CURA": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "ABAD": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "ABADESA": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "f"
+  },
+  "MISIONERO": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "MISIONERA": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "f"
+  },
+  "REY": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "m"
+  },
+  "REINA": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "f"
+  },
+  "PRINCIPE": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "m"
+  },
+  "PRINCESA": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "f"
+  },
+  "INFANTE": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "m"
+  },
+  "INFANTA": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "f"
+  },
+  "EMPERADOR": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "m"
+  },
+  "EMPERATRIZ": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "f"
+  },
+  "MARQUES": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "m"
+  },
+  "MARQUESA": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "f"
+  },
+  "CONDE": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "m"
+  },
+  "CONDESA": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "f"
+  },
+  "DUQUE": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "m"
+  },
+  "DUQUESA": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "f"
+  },
+  "BARON": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "m"
+  },
+  "BARONESA": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "f"
+  },
+  "VIZCONDE": {
+    "cat": "person",
+    "sub": "nobility",
+    "g": "m"
+  },
+  "TORERO": {
+    "cat": "person",
+    "sub": "bullfighting",
+    "g": "m"
+  },
+  "MATADOR": {
+    "cat": "person",
+    "sub": "bullfighting",
+    "g": "m"
+  },
+  "REJONEADOR": {
+    "cat": "person",
+    "sub": "bullfighting",
+    "g": "m"
+  },
+  "BANDERILLERO": {
+    "cat": "person",
+    "sub": "bullfighting",
+    "g": "m"
+  },
+  "NOVILLERO": {
+    "cat": "person",
+    "sub": "bullfighting",
+    "g": "m"
+  },
+  "FUTBOLISTA": {
+    "cat": "person",
+    "sub": "sport",
+    "g": "u"
+  },
+  "ATLETA": {
+    "cat": "person",
+    "sub": "sport",
+    "g": "u"
+  },
+  "CICLISTA": {
+    "cat": "person",
+    "sub": "sport",
+    "g": "u"
+  },
+  "DEPORTISTA": {
+    "cat": "person",
+    "sub": "sport",
+    "g": "u"
+  },
+  "AJEDRECISTA": {
+    "cat": "person",
+    "sub": "sport",
+    "g": "u"
+  },
+  "EMPRESARIO": {
+    "cat": "person",
+    "sub": "business",
+    "g": "m"
+  },
+  "EMPRESARIA": {
+    "cat": "person",
+    "sub": "business",
+    "g": "f"
+  },
+  "INDUSTRIAL": {
+    "cat": "person",
+    "sub": "business",
+    "g": "m"
+  },
+  "COMERCIANTE": {
+    "cat": "person",
+    "sub": "business",
+    "g": "u"
+  },
+  "NAVIERO": {
+    "cat": "person",
+    "sub": "business",
+    "g": "m"
+  },
+  "BODEGUERO": {
+    "cat": "person",
+    "sub": "business",
+    "g": "m"
+  },
+  "EXPLORADOR": {
+    "cat": "person",
+    "sub": "exploration",
+    "g": "m"
+  },
+  "NAVEGANTE": {
+    "cat": "person",
+    "sub": "exploration",
+    "g": "m"
+  },
+  "AVIADOR": {
+    "cat": "person",
+    "sub": "exploration",
+    "g": "m"
+  },
+  "AVIADORA": {
+    "cat": "person",
+    "sub": "exploration",
+    "g": "f"
+  },
+  "ASTRONAUTA": {
+    "cat": "person",
+    "sub": "exploration",
+    "g": "u"
+  },
+  "CONQUISTADOR": {
+    "cat": "person",
+    "sub": "exploration",
+    "g": "m"
+  },
+  "DON": {
+    "cat": "person",
+    "sub": "other",
+    "g": "m"
+  },
+  "DONA": {
+    "cat": "person",
+    "sub": "other",
+    "g": "f"
+  },
+  "PADRE": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "MADRE": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "f"
+  },
+  "HERMANO": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "HERMANA": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "f"
+  },
+  "HERMANOS": {
+    "cat": "person",
+    "sub": "other",
+    "g": "mixed"
+  },
+  "HERMANAS": {
+    "cat": "person",
+    "sub": "other",
+    "g": "f"
+  },
+  "FAMILIA": {
+    "cat": "person",
+    "sub": "other",
+    "g": "mixed"
+  },
+  "VIUDA": {
+    "cat": "person",
+    "sub": "relative",
+    "g": "f"
+  },
+  "PIANISTA": {
+    "cat": "person",
+    "sub": "music",
+    "g": "u"
+  },
+  "VIOLINISTA": {
+    "cat": "person",
+    "sub": "music",
+    "g": "u"
+  },
+  "TENOR": {
+    "cat": "person",
+    "sub": "music",
+    "g": "m"
+  },
+  "SOPRANO": {
+    "cat": "person",
+    "sub": "music",
+    "g": "f"
+  },
+  "BARITONO": {
+    "cat": "person",
+    "sub": "music",
+    "g": "m"
+  },
+  "ORGANISTA": {
+    "cat": "person",
+    "sub": "music",
+    "g": "u"
+  },
+  "ASTRONOMA": {
+    "cat": "person",
+    "sub": "science",
+    "g": "f"
+  },
+  "BOTANICO": {
+    "cat": "person",
+    "sub": "science",
+    "g": "m"
+  },
+  "BOTANICA": {
+    "cat": "person",
+    "sub": "science",
+    "g": "f"
+  },
+  "ARQUEOLOGO": {
+    "cat": "person",
+    "sub": "science",
+    "g": "m"
+  },
+  "ARQUEOLOGA": {
+    "cat": "person",
+    "sub": "science",
+    "g": "f"
+  },
+  "GEOLOGO": {
+    "cat": "person",
+    "sub": "science",
+    "g": "m"
+  },
+  "GEOLOGA": {
+    "cat": "person",
+    "sub": "science",
+    "g": "f"
+  },
+  "BIOLOGO": {
+    "cat": "person",
+    "sub": "science",
+    "g": "m"
+  },
+  "BIOLOGA": {
+    "cat": "person",
+    "sub": "science",
+    "g": "f"
+  },
+  "FILOSOFO": {
+    "cat": "person",
+    "sub": "science",
+    "g": "m"
+  },
+  "FILOSOFA": {
+    "cat": "person",
+    "sub": "science",
+    "g": "f"
+  },
+  "LINGUISTA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "u"
+  },
+  "FILOLOGO": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "m"
+  },
+  "FILOLOGA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "f"
+  },
+  "HISTORIADOR": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "m"
+  },
+  "HISTORIADORA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "f"
+  },
+  "HISPANISTA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "u"
+  },
+  "JAPONISTA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "u"
+  },
+  "ARABISTA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "u"
+  },
+  "TRADUCTORA": {
+    "cat": "person",
+    "sub": "letters",
+    "g": "f"
+  },
+  "LIBRERO": {
+    "cat": "person",
+    "sub": "business",
+    "g": "m"
+  },
+  "LIBRERA": {
+    "cat": "person",
+    "sub": "business",
+    "g": "f"
+  },
+  "EDITOR": {
+    "cat": "person",
+    "sub": "business",
+    "g": "m"
+  },
+  "EDITORA": {
+    "cat": "person",
+    "sub": "business",
+    "g": "f"
+  },
+  "ENCUADERNADOR": {
+    "cat": "person",
+    "sub": "business",
+    "g": "m"
+  },
+  "IMPRESOR": {
+    "cat": "person",
+    "sub": "business",
+    "g": "m"
+  },
+  "CINEASTA": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "u"
+  },
+  "DISENADOR": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "m"
+  },
+  "DISENADORA": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "f"
+  },
+  "DIBUJANTE": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "u"
+  },
+  "CARTELISTA": {
+    "cat": "person",
+    "sub": "visual",
+    "g": "u"
+  },
+  "GOLFISTA": {
+    "cat": "person",
+    "sub": "sport",
+    "g": "u"
+  },
+  "TENISTA": {
+    "cat": "person",
+    "sub": "sport",
+    "g": "u"
+  },
+  "NADADOR": {
+    "cat": "person",
+    "sub": "sport",
+    "g": "m"
+  },
+  "NADADORA": {
+    "cat": "person",
+    "sub": "sport",
+    "g": "f"
+  },
+  "BOXEADOR": {
+    "cat": "person",
+    "sub": "sport",
+    "g": "m"
+  },
+  "JUGADOR": {
+    "cat": "person",
+    "sub": "sport",
+    "g": "m"
+  },
+  "DIPLOMATICO": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "m"
+  },
+  "DIPLOMATICA": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "f"
+  },
+  "SINDICALISTA": {
+    "cat": "person",
+    "sub": "activism",
+    "g": "u"
+  },
+  "MAGISTRADO": {
+    "cat": "person",
+    "sub": "law",
+    "g": "m"
+  },
+  "MAGISTRADA": {
+    "cat": "person",
+    "sub": "law",
+    "g": "f"
+  },
+  "LICENCIADO": {
+    "cat": "person",
+    "sub": "law",
+    "g": "m"
+  },
+  "LICENCIADA": {
+    "cat": "person",
+    "sub": "law",
+    "g": "f"
+  },
+  "PROCURADOR": {
+    "cat": "person",
+    "sub": "law",
+    "g": "m"
+  },
+  "SECRETARIO": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "m"
+  },
+  "SECRETARIA": {
+    "cat": "person",
+    "sub": "politics",
+    "g": "f"
+  },
+  "PRESBITERO": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "CAPELLAN": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "SACERDOTE": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "ERMITANO": {
+    "cat": "person",
+    "sub": "clergy",
+    "g": "m"
+  },
+  "COMENDADOR": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "ALCAIDE": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "MAESTRE": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "GUARDIA": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "MILITAR": {
+    "cat": "person",
+    "sub": "military",
+    "g": "m"
+  },
+  "COMICO": {
+    "cat": "person",
+    "sub": "performing",
+    "g": "m"
+  },
+  "COMICA": {
+    "cat": "person",
+    "sub": "performing",
+    "g": "f"
+  },
+  "HUMORISTA": {
+    "cat": "person",
+    "sub": "performing",
+    "g": "u"
+  },
+  "PAYASO": {
+    "cat": "person",
+    "sub": "performing",
+    "g": "m"
+  },
+  "LOCUTOR": {
+    "cat": "person",
+    "sub": "journalism",
+    "g": "m"
+  },
+  "LOCUTORA": {
+    "cat": "person",
+    "sub": "journalism",
+    "g": "f"
+  },
+  "CORRESPONSAL": {
+    "cat": "person",
+    "sub": "journalism",
+    "g": "u"
+  },
+  "FUNDADOR": {
+    "cat": "person",
+    "sub": "other",
+    "g": "m"
+  },
+  "FUNDADORA": {
+    "cat": "person",
+    "sub": "other",
+    "g": "f"
+  },
+  "MECENAS": {
+    "cat": "person",
+    "sub": "other",
+    "g": "u"
+  },
+  "BENEFACTOR": {
+    "cat": "person",
+    "sub": "other",
+    "g": "m"
+  },
+  "BENEFACTORA": {
+    "cat": "person",
+    "sub": "other",
+    "g": "f"
+  },
+  "PENISTA": {
+    "cat": "person",
+    "sub": "other",
+    "g": "m"
+  },
+  "MAESE": {
+    "cat": "person",
+    "sub": "other",
+    "g": "m"
+  }
+}

@@ -1,0 +1,24 @@
+# The doctoral thesis is not ours to redistribute. `make thesis` reads it from
+# the repository root; see the README for where to download it.
+las_mujeres_en_el_callejero_malagueño_linares.pdf
+*.pdf
+
+# Downloaded sources. Fetched by `make sources`, large, and owned by their
+# publishers. What the pipeline derives from them lives in data/sources and IS
+# committed, so a fresh clone rebuilds without re-downloading.
+data/raw/
+
+# Pipeline scratch output. The bundles the site actually deploys are copied to
+# web/public/data by `make web`, and those ARE committed so the host only has
+# to run the JavaScript build.
+data/out/
+
+web/dist/
+web/dist-single/
+web/tsconfig.tsbuildinfo
+
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+.netlify/

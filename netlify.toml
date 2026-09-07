@@ -1,0 +1,41 @@
+# Netlify deploys the viewer only. The Python pipeline is not run here: the
+# Málaga bundles it produces are committed under web/public/data, so a deploy is
+# a plain JavaScript build with no Python, no poppler and no 57 MB download.
+# Rebuild the data locally with `make all`, commit the bundles, and push.
+
+[build]
+  base = "web"
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Vite has already bundled and minified; letting the host post-process it again
+# only risks changing output that was verified locally.
+[build.processing]
+  skip_processing = true
+
+# Vite fingerprints everything under /assets, so those may be cached forever.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# The city bundles keep stable names and change when the pipeline is re-run, so
+# they are cached but always revalidated.
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=600, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
+    Permissions-Policy = "geolocation=(), camera=(), microphone=()"
+
+# Deliberately no SPA catch-all: the viewer routes in the URL fragment, so every
+# real path is a real file. A catch-all would turn a missing city bundle into a
+# silent page of HTML served as JSON instead of an honest 404.

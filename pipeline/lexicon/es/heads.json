@@ -1,0 +1,392 @@
+{
+  "_doc": "Words that classify a name by opening it. Unlike roles.json these do not imply a person: 'LAGAR GONGORA' is a rural holding that happens to carry a surname, and 'RIO GUADALHORCE' is a river. Matching on the head word is what keeps the 266 lagares and 82 cortijos of Málaga's rural callejero out of the person counts.",
+  "LAGAR": {
+    "cat": "landscape",
+    "sub": "rural_estate"
+  },
+  "LAGARES": {
+    "cat": "landscape",
+    "sub": "rural_estate"
+  },
+  "CORTIJO": {
+    "cat": "landscape",
+    "sub": "rural_estate"
+  },
+  "CORTIJOS": {
+    "cat": "landscape",
+    "sub": "rural_estate"
+  },
+  "CASILLA": {
+    "cat": "landscape",
+    "sub": "rural_estate"
+  },
+  "CASERIO": {
+    "cat": "landscape",
+    "sub": "rural_estate"
+  },
+  "FINCA": {
+    "cat": "landscape",
+    "sub": "rural_estate"
+  },
+  "HACIENDA": {
+    "cat": "landscape",
+    "sub": "rural_estate"
+  },
+  "HUERTA": {
+    "cat": "landscape",
+    "sub": "rural_estate"
+  },
+  "HUERTO": {
+    "cat": "landscape",
+    "sub": "rural_estate"
+  },
+  "VENTA": {
+    "cat": "landscape",
+    "sub": "rural_estate"
+  },
+  "MOLINO": {
+    "cat": "landscape",
+    "sub": "rural_estate"
+  },
+  "MOLINOS": {
+    "cat": "landscape",
+    "sub": "rural_estate"
+  },
+  "CASA": {
+    "cat": "landscape",
+    "sub": "built"
+  },
+  "CASAS": {
+    "cat": "landscape",
+    "sub": "built"
+  },
+  "VILLA": {
+    "cat": "landscape",
+    "sub": "built"
+  },
+  "TORRE": {
+    "cat": "landscape",
+    "sub": "built"
+  },
+  "CASTILLO": {
+    "cat": "landscape",
+    "sub": "built"
+  },
+  "MURALLA": {
+    "cat": "landscape",
+    "sub": "built"
+  },
+  "PUENTE": {
+    "cat": "landscape",
+    "sub": "built"
+  },
+  "ACUEDUCTO": {
+    "cat": "landscape",
+    "sub": "built"
+  },
+  "ERMITA": {
+    "cat": "landscape",
+    "sub": "built"
+  },
+  "CAPILLA": {
+    "cat": "landscape",
+    "sub": "built"
+  },
+  "CONVENTO": {
+    "cat": "landscape",
+    "sub": "built"
+  },
+  "ARROYO": {
+    "cat": "landscape",
+    "sub": "hydrography"
+  },
+  "FUENTE": {
+    "cat": "landscape",
+    "sub": "hydrography"
+  },
+  "FUENTES": {
+    "cat": "landscape",
+    "sub": "hydrography"
+  },
+  "POZO": {
+    "cat": "landscape",
+    "sub": "hydrography"
+  },
+  "MANANTIAL": {
+    "cat": "landscape",
+    "sub": "hydrography"
+  },
+  "ACEQUIA": {
+    "cat": "landscape",
+    "sub": "hydrography"
+  },
+  "CANADA": {
+    "cat": "landscape",
+    "sub": "relief"
+  },
+  "LOMA": {
+    "cat": "landscape",
+    "sub": "relief"
+  },
+  "CERRO": {
+    "cat": "landscape",
+    "sub": "relief"
+  },
+  "COLINA": {
+    "cat": "landscape",
+    "sub": "relief"
+  },
+  "BARRANCO": {
+    "cat": "landscape",
+    "sub": "relief"
+  },
+  "LLANO": {
+    "cat": "landscape",
+    "sub": "relief"
+  },
+  "VEGA": {
+    "cat": "landscape",
+    "sub": "relief"
+  },
+  "VALLE": {
+    "cat": "landscape",
+    "sub": "relief"
+  },
+  "HOYA": {
+    "cat": "landscape",
+    "sub": "relief"
+  },
+  "TAJO": {
+    "cat": "landscape",
+    "sub": "relief"
+  },
+  "RIO": {
+    "cat": "place",
+    "sub": "hydronym"
+  },
+  "RIA": {
+    "cat": "place",
+    "sub": "hydronym"
+  },
+  "MAR": {
+    "cat": "place",
+    "sub": "hydronym"
+  },
+  "PLAYA": {
+    "cat": "place",
+    "sub": "hydronym"
+  },
+  "COSTA": {
+    "cat": "place",
+    "sub": "hydronym"
+  },
+  "CABO": {
+    "cat": "place",
+    "sub": "hydronym"
+  },
+  "ISLA": {
+    "cat": "place",
+    "sub": "hydronym"
+  },
+  "ISLAS": {
+    "cat": "place",
+    "sub": "hydronym"
+  },
+  "EMBALSE": {
+    "cat": "place",
+    "sub": "hydronym"
+  },
+  "LAGUNA": {
+    "cat": "place",
+    "sub": "hydronym"
+  },
+  "SIERRA": {
+    "cat": "place",
+    "sub": "oronym"
+  },
+  "MONTE": {
+    "cat": "place",
+    "sub": "oronym"
+  },
+  "MONTES": {
+    "cat": "place",
+    "sub": "oronym"
+  },
+  "PICO": {
+    "cat": "place",
+    "sub": "oronym"
+  },
+  "PUERTO": {
+    "cat": "place",
+    "sub": "oronym"
+  },
+  "PENON": {
+    "cat": "place",
+    "sub": "oronym"
+  },
+  "CIUDAD": {
+    "cat": "place",
+    "sub": "world_city"
+  },
+  "PROVINCIA": {
+    "cat": "place",
+    "sub": "region"
+  },
+  "COMARCA": {
+    "cat": "place",
+    "sub": "region"
+  },
+  "VIRGEN": {
+    "cat": "religion",
+    "sub": "marian",
+    "g": "f"
+  },
+  "SAN": {
+    "cat": "religion",
+    "sub": "saint",
+    "g": "m"
+  },
+  "SANTO": {
+    "cat": "religion",
+    "sub": "saint",
+    "g": "m"
+  },
+  "SANTA": {
+    "cat": "religion",
+    "sub": "saint",
+    "g": "f"
+  },
+  "SANTAS": {
+    "cat": "religion",
+    "sub": "saint",
+    "g": "f"
+  },
+  "SANTOS": {
+    "cat": "religion",
+    "sub": "saint",
+    "g": "m"
+  },
+  "BEATO": {
+    "cat": "religion",
+    "sub": "saint",
+    "g": "m"
+  },
+  "BEATA": {
+    "cat": "religion",
+    "sub": "saint",
+    "g": "f"
+  },
+  "CRISTO": {
+    "cat": "religion",
+    "sub": "devotion",
+    "g": "m"
+  },
+  "JESUS": {
+    "cat": "religion",
+    "sub": "devotion",
+    "g": "m"
+  },
+  "SAGRADO": {
+    "cat": "religion",
+    "sub": "devotion"
+  },
+  "SAGRADA": {
+    "cat": "religion",
+    "sub": "devotion"
+  },
+  "DIVINA": {
+    "cat": "religion",
+    "sub": "devotion",
+    "g": "f"
+  },
+  "DIVINO": {
+    "cat": "religion",
+    "sub": "devotion",
+    "g": "m"
+  },
+  "NUESTRA": {
+    "cat": "religion",
+    "sub": "marian",
+    "g": "f"
+  },
+  "ABADIA": {
+    "cat": "religion",
+    "sub": "order"
+  },
+  "PARROQUIA": {
+    "cat": "religion",
+    "sub": "order"
+  },
+  "BATALLA": {
+    "cat": "event",
+    "sub": "battle"
+  },
+  "COMBATE": {
+    "cat": "event",
+    "sub": "battle"
+  },
+  "GESTA": {
+    "cat": "event",
+    "sub": "historical"
+  },
+  "FERIA": {
+    "cat": "event",
+    "sub": "festivity"
+  },
+  "ROMERIA": {
+    "cat": "event",
+    "sub": "festivity"
+  },
+  "VERBENA": {
+    "cat": "event",
+    "sub": "festivity"
+  },
+  "COLEGIO": {
+    "cat": "institution",
+    "sub": "education"
+  },
+  "UNIVERSIDAD": {
+    "cat": "institution",
+    "sub": "education"
+  },
+  "INSTITUTO": {
+    "cat": "institution",
+    "sub": "education"
+  },
+  "ESCUELA": {
+    "cat": "institution",
+    "sub": "education"
+  },
+  "SINDICATO": {
+    "cat": "institution",
+    "sub": "labour"
+  },
+  "COOPERATIVA": {
+    "cat": "institution",
+    "sub": "labour"
+  },
+  "GREMIO": {
+    "cat": "trade",
+    "sub": "guild"
+  },
+  "BARRIADA": {
+    "cat": "place",
+    "sub": "local"
+  },
+  "BARRIO": {
+    "cat": "place",
+    "sub": "local"
+  },
+  "URBANIZACION": {
+    "cat": "place",
+    "sub": "local"
+  },
+  "POLIGONO": {
+    "cat": "place",
+    "sub": "local"
+  },
+  "PARQUE": {
+    "cat": "place",
+    "sub": "local"
+  }
+}

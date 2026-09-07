@@ -1,0 +1,23 @@
+{
+  "_doc": "Mythological and legendary figures, with the gender of the figure. The thesis counts these as 'mujer ficticia' when female, and they matter disproportionately: a city can name many streets after goddesses while naming very few after women who existed.",
+  "AFRODITA": "f", "ATENEA": "f", "ARTEMISA": "f", "HERA": "f", "DEMETER": "f",
+  "PERSEFONE": "f", "HESTIA": "f", "NEMESIS": "f", "GAIA": "f", "SELENE": "f",
+  "EOS": "f", "IRIS": "f", "NIKE": "f", "HEBE": "f", "TETIS": "f", "CALIPSO": "f",
+  "CIRCE": "f", "MEDEA": "f", "ARIADNA": "f", "ANDROMEDA": "f", "CASIOPEA": "f",
+  "PANDORA": "f", "EUROPA": "f", "DAFNE": "f", "ECO": "f", "AMAZONA": "f",
+  "AMAZONAS": "f", "MUSAS": "f", "NINFA": "f", "NINFAS": "f", "SIRENA": "f",
+  "SIRENAS": "f", "NAYADE": "f", "PARCAS": "f", "GORGONA": "f", "MEDUSA": "f",
+  "ANTIGONA": "f", "ELECTRA": "f", "CASANDRA": "f", "PENELOPE": "f", "HELENA": "f",
+  "CLIO": "f", "CALIOPE": "f", "TALIA": "f", "URANIA": "f", "ERATO": "f",
+  "POLIMNIA": "f", "EUTERPE": "f", "TERPSICORE": "f", "MELPOMENE": "f",
+  "MINERVA": "f", "VENUS": "f", "DIANA": "f", "JUNO": "f", "CERES": "f",
+  "VESTA": "f", "FLORA": "f", "AURORA BOREAL": "f", "ISIS": "f", "FREYA": "f",
+  "VALQUIRIA": "f", "HADA": "f", "ZEUS": "m", "APOLO": "m", "ARES": "m",
+  "HERMES": "m", "POSEIDON": "m", "HADES": "m", "HEFESTO": "m", "DIONISO": "m",
+  "CRONOS": "m", "ATLAS": "m", "PROMETEO": "m", "ORFEO": "m", "PERSEO": "m",
+  "TESEO": "m", "AQUILES": "m", "ULISES": "m", "HECTOR": "m", "JASON": "m",
+  "HERCULES": "m", "JUPITER": "m", "MARTE": "m", "NEPTUNO": "m", "MERCURIO": "m",
+  "VULCANO": "m", "BACO": "m", "SATURNO": "m", "JANO": "m", "PLUTON": "m",
+  "ODIN": "m", "THOR": "m", "OSIRIS": "m", "ICARO": "m", "NARCISO": "m",
+  "CENTAURO": "m", "MINOTAURO": "m", "CICLOPE": "m", "TRITON": "m", "PEGASO": "m"
+}
