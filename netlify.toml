@@ -10,7 +10,12 @@
 # the single, unambiguous source of configuration.
 
 [build]
-  command = "cd web && npm ci && npm run build"
+  # Tolerant of the working directory. With no base directory Netlify runs this
+  # at the repository root and the `cd` applies; if a base directory is set in
+  # the UI -- which overrides this file -- the command already starts inside
+  # web/, there is no web/web to enter, and it proceeds regardless. A bare
+  # `cd web` fails outright in that second case and the deploy never happens.
+  command = "[ -d web ] && cd web; npm ci && npm run build"
   publish = "web/dist"
 
 [build.environment]
