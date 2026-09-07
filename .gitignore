@@ -22,3 +22,4 @@ __pycache__/
 *.pyc
 .DS_Store
 .netlify/
+web/public/build-info.json

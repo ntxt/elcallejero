@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Who the streets are named after: a designatum atlas of the city callejero.",
   "scripts": {
+    "prebuild": "node scripts/build-info.mjs",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",

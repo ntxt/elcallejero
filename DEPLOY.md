@@ -32,6 +32,15 @@ under `web/public/data`.
 
    Nothing back means the deploy is stale or the build failed.
 
+   To tell *which* commit is live — two commits that touch no JavaScript build
+   byte-identical fingerprinted assets, so the filenames cannot answer it:
+
+   ```sh
+   curl -s https://callejero.ntxt.net/build-info.json
+   ```
+
+   It is written by `prebuild` from Netlify's `COMMIT_REF`, or from git locally.
+
 2. **Add the domain.** *Domain management → Add a domain* →
    `callejero.ntxt.net`. Netlify will ask you to prove ownership by DNS.
 
